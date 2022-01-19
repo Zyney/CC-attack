@@ -617,7 +617,7 @@ def downloadsocks(choice):
 		except:
 			pass
 		try:
-			r = requests.get("https://www.proxy-list.download/api/v1/get?type=socks5",timeout=5)
+			r = requests.get("https://pastebin.com/raw/kCydNf86",timeout=5)
 			f.write(r.content)
 		except:
 			pass
